@@ -5,7 +5,7 @@
 - OpenCore **1.0.7**（官方 RELEASE 二进制，无任何自编译文件）
 - SMBIOS：`MacBookPro14,2`
 - 配置校验：`ocvalidate 1.0.7` → `No issues found`
-- 规模：172 个文件 / 36MB
+- 规模：130 个文件 / 34.5MB
 
 > ⚠️ **开工前必读**
 > 1. `config.plist` 里的三码全是占位符，**必须自己生成**，否则 iCloud / App Store / iMessage 全部不可用（见「五、使用步骤」第 1 步）。
@@ -452,8 +452,8 @@ system_profiler SPBluetoothDataType | head -10
 
 | 项目 | 值 |
 |---|---|
-| 文件数 | 172 |
-| 体积 | 约 36MB（Kexts 32MB、Resources 1.7MB） |
+| 文件数 | 130 |
+| 体积 | 约 34.5MB（Kexts 31.8MB、Resources 0.6MB） |
 | OpenCore | 1.0.7 官方 REL |
 
 ---
